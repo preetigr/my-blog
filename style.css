@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Fontdiner Swanky', cursive;
+	color: rgb(100,100,100);
+	margin: 0px;
+}
+
+section.hero{
+	width: 100%;
+	height: 1000px;
+	background-image: url('http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1450974650/disney-fireworks-castle-DISNEY1215.jpg?itok=vlwJ0I5m');
+	background-size: 100% 100%;
+	color: #fff;
+	text-decoration: none;
+	height: 1000px;
+}
+.hero{
+	margin: 0px;
+	text-align: center;
+}
+
+#logo{
+	padding-top: 15px;
+	float: left;
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 250%;
+}
+nav{
+	margin-top: 15px;
+	float: right;
+}
+nav li{
+	display: inline;
+	margin-right: 150px;
+}
+nav li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 150%;
+}
+
+.mediacontainer marquee{
+	font-size: 600%;
+	line height: 1em;
+	margin: 0px;
+	text-align: center;
+	font-family: 'Fontdiner Swanky', cursive;
+	font-weight: normal;
+}
+
+.features{
+	width: 940px;
+	height: 400px;
+	margin: 0px auto;
+	padding: 5px 0px;
+}
+.features h2{
+	text-align: center;
+	font-size: 300%;
+	margin-bottom: 30px;
+	font-family: 'Fontdiner Swanky', cursive;
+	font-weight: normal;
+	color: #fff;
+	background-image: url('http://66.media.tumblr.com/tumblr_m76zskFXbs1qc4jg3o1_500.gif');
+}
+.col-1 h3{
+	width: 286px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #FF6347;
+	font-weight: normal;
+	font-size: 130%;
+
+}
+.col-1 h5{
+	font-size: 130%;
+	width: 286px;
+	height: 200px;
+	font-weight: normal;
+	text-align: center;
+	float: left;
+	margin-bottom: 400px;
+	color: #FF6347;
+}
