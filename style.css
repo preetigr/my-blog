@@ -30,7 +30,7 @@ section.hero{
 }
 nav{
 	margin-top: 15px;
-	float: right;
+	float: bottom;
 }
 nav li{
 	display: inline;
