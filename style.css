@@ -47,11 +47,7 @@ nav li a{
 
 }
 
-ul li a:hoover{
-	background-color: orange;
-}
-	
-.mediacontainer marquee{
+mediacontainer marquee{
 	font-size: 600%;
 	line-height: 1em;
 	margin: 0px;
