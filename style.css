@@ -42,8 +42,15 @@ nav li a{
 	font-size: 100%;
 	font-weight: normal;
 	height: 100px; 
+	width: 100px;
+	background-color: #fff;
+
 }
 
+ul li a:hoover{
+	background-color: orange;
+}
+	
 .mediacontainer marquee{
 	font-size: 600%;
 	line-height: 1em;
