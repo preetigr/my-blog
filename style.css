@@ -32,7 +32,7 @@ nav{
 	margin-top: 15px;
 	float: bottom;
 }
-nav li{
+.nav {
 	display: inline;
 	margin-right: 100px;
 }
