@@ -116,6 +116,19 @@ section.features{
 	text-decoration: none;
 	height: 1000px;
 }
+#wrapper{
+	width: 400px;
+	background-color: #000;
+	margin: 5px;
+	float: left;
+	margin-left: 15px;
+	opacity: .8;
+	min-height: 300px;
+	border: 1px solid #999;
+	border-bottom:3px solid #999;
+	border-radius: 5px;
+}
+
 #dialogoverlay{
 	display: none;
 	opacity: .8;
