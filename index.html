@@ -22,7 +22,7 @@
 							<span style="color:#ff1493">and</span>
 						</div>
 						<div>
-							<span style="color:#FF6347">imagination</span>
+							<span style="color:#FF6347"">imagination</span>
 							<span style="color:#00FF7F">has</span>
 							<span style="color:#FF0000">no</span>
 							<span style="color:#228B22">age</span>
@@ -36,7 +36,22 @@
 						</div>
 						
 				</div>	
-				
+						
+						<div id="dialogoverlay"></div>
+							<div id="dialogbox">
+							<div>
+							<div id="dialogboxhead"></div>
+							<div id="dialogboxbody"></div>
+							<div id="dialogboxfoot"></div>
+							</div>
+						</div>
+						
+						<h1>A Child Who Sings</h1>
+						<h6>Is A Happy Child</h6>
+						<button onclick="alert('sign up to hear songs')">Sing Along</button>
+						<button onclick="Alert.render('sign up first to hear songs')">Album Songs</button>
+						<h6>Happy songs to you </h6>
+	
 				
 						<nav>
 							<ul>
@@ -72,9 +87,32 @@
 					<image src="https://crustula.files.wordpress.com/2015/07/minions.gif" />
 				
 				<h5>do it yourself - give a try!!</h5>
-		</section>
+		
+				<script>
+				function album songs(){
+				this.render= function(dialog){
+				var winW= window.innerWidth;
+				var winH= window.innerHeight;
+				var dialogoverlay= document.getElementById('dialogoverlay');
+				var dialogoverlay= document.getElementById('dialogbox');
+				dialogoverlay.style.display= "block";
+				dialogoverlay.style.height= winH + "px";
+				dialogoverlay.style.left= (winW/2)-(550*.5)+"px";
+				dialogoverlay.style.top= "100px";
+				dialogoverlay.style.display= "block";
+				document.getElementById('dialogboxhead').innerHTML= "Acknowledge This Message";
+				document.getElementById('dialogboxbody').innerHTML= dialog;
+				document.getElementById('dialogboxfoot').innerHTML= '<button onclick="Alert.ok()">OK</button>
+				}
+				this.ok= function(){
+				document.getElementById('dialogbox').style.display= "none";
+				document.getElementById('dialoverlay').style.display= "none";
+				}
+				}
+				var Alert= new Album Songs();
+				</script>
 				
+					
 	</body>
 </html>
-		
 		
