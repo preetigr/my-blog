@@ -32,21 +32,31 @@ nav{
 	margin-top: 15px;
 	float: right;
 }
-nav li{
+nav ul li a{
 	display: inline;
 	margin-right: 19px;
 	padding-right: 30px;
 	padding-top: 20px;
 	margin-top: 15px;
-	width: 100px;
-	height: 40px;
-	background-color: #fff;
 }
-nav li a{
+nav ul li a{
 	color: #fff;
 	text-decoration: none;
-	font-size: 110%;
+	font-size: 160%;
+	background-color: #fff;
+	display: block;
+	opacity: .8;
 	
+}
+nav ul li a:hover{
+	background-colour: orange;
+}
+
+nav ul li a ul li a{
+	display: none;
+}
+nav ul li a:hover nav ul li a{
+	display: block;
 }
 
 .mediacontainer marquee{
