@@ -4,7 +4,7 @@
 			<title> my blog </title>
 			<link href="style.css" type="text/css" rel="stylesheet" />
 			<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
-			
+			<script src="dialog.js"></script>
 		</head>
 	<body>
 		<section class="hero" >
@@ -88,29 +88,6 @@
 				
 				<h5>do it yourself - give a try!!</h5>
 		
-				<script>
-				function album songs(){
-				this.render= function(dialog){
-				var winW= window.innerWidth;
-				var winH= window.innerHeight;
-				var dialogoverlay= document.getElementById('dialogoverlay');
-				var dialogoverlay= document.getElementById('dialogbox');
-				dialogoverlay.style.display= "block";
-				dialogoverlay.style.height= winH + "px";
-				dialogoverlay.style.left= (winW/2)-(550*.5)+"px";
-				dialogoverlay.style.top= "100px";
-				dialogoverlay.style.display= "block";
-				document.getElementById('dialogboxhead').innerHTML= "Acknowledge This Message";
-				document.getElementById('dialogboxbody').innerHTML= dialog;
-				document.getElementById('dialogboxfoot').innerHTML= '<button onclick="Alert.ok()">OK</button>
-				}
-				this.ok= function(){
-				document.getElementById('dialogbox').style.display= "none";
-				document.getElementById('dialoverlay').style.display= "none";
-				}
-				}
-				var Alert= new Album Songs();
-				</script>
 				
 					
 	</body>
