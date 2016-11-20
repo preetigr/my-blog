@@ -5,8 +5,8 @@ function album songs(){
 					var dialogoverlay= document.getElementById('dialogoverlay');
 					var dialogoverlay= document.getElementById('dialogbox');
 					dialogoverlay.style.display= "block";
-					dialogoverlay.style.height= winH + "px";
-					dialogoverlay.style.left= (winW/2)-(550*.5)+"px";
+					dialogoverlay.style.height= winH+"px";
+					dialogoverlay.style.left= (winW/2) - (550*.5)+"px";
 					dialogoverlay.style.top= "100px";
 					dialogoverlay.style.display= "block";
 					document.getElementById('dialogboxhead').innerHTML= "Acknowledge This Message";
