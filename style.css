@@ -129,6 +129,12 @@ section.features{
 	border-radius: 5px;
 }
 
+#regform{
+		width: 340px;
+		margin: 35px;
+	}
+
+
 #dialogoverlay{
 	display: none;
 	opacity: .8;
