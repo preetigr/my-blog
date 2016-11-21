@@ -161,6 +161,43 @@ ul{
 	border-radius: 5px;
 }
 
+#image4{
+	background: url('http://store.metmuseum.org/content/ebiz/themetstore/invt/80024770/80024770_01_l.jpg');
+	width: 300px;
+	height: 250px;
+	background-position: left;
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-color: #000;
+	margin: 5px;
+	float: left;
+	margin-right: 15px;
+	opacity: .8;
+	min-height: 50px;
+	border: 1px solid #999;
+	border-bottom:3px solid #999;
+	border-radius: 5px;
+}
+#image5{
+	background: url('https://sdweg.files.wordpress.com/2015/10/12561-poetry-icon.jpg');
+	width: 300px;
+	height: 250px;
+	background-position: left;
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-color: #000;
+	margin: 5px;
+	float: left;
+	margin-right: 15px;
+	opacity: .8;
+	min-height: 50px;
+	border: 1px solid #999;
+	border-bottom:3px solid #999;
+	border-radius: 5px;
+}
+
 section.features{
 
 	width: 100%;
@@ -179,7 +216,7 @@ section.features{
 	width: 400px;
 	background-color: #000;
 	margin: 5px;
-	float: right;
+	float: left;
 	margin-left: 15px;
 	opacity: .8;
 	min-height: 300px;
