@@ -1,7 +1,10 @@
 *{
-	margin: 0px;
+	margin: 5px;
 	padding: 5px;
-	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 body{
 	font-family: 'Fontdiner Swanky', cursive;
@@ -10,14 +13,21 @@ body{
 }
 
 section.hero{
-	padding
+	padding: 5px;
 	width: 100%;
-	height: 500;
+	height: 400;
 	background-size: 100% 100%;
 	color: #FF69B4;
 	text-decoration: underline overline;
-	height: 500px;
+	height: 600px;
+	border-radius: 5px;
+	border: 1px solid #999;
+	margin-left: 15px;
+	margin-right: 15px;
+	background: black url('http://cdn.paper4pc.com/images/blur-wallpaper-6.jpg') center center no-repeat;
+	background-size: cover;
 }
+
 .hero{
 	margin: 15px;
 	text-align: center;
@@ -29,13 +39,20 @@ section.hero{
 	font-family: 'Fontdiner Swanky', cursive;
 	font-size: 125%;
 	opacity: .8;
-	background-color: #FFFFE0;
+	background: #98fb98 url('http://www.clipartkid.com/images/218/walt-disney-characters-walt-disney-wallpapers-walt-disney-characters-cdNPkW-clipart.jpg') center center no-repeat;
 	text-decoration: underline overline;
+	background-size: cover;
+	border-radius: 5px;
+	border: 1px solid #999;
+
+	
 }
 ul{
 	list-style-type: none;
 	overflow: hidden;
 	margin: 0px auto;
+	
+	
 	
 }
  li{
@@ -59,12 +76,13 @@ ul{
 }
 
 .mediacontainer marquee{
-	font-size: 600%;
-	line height: 1em;
-	margin: 0px;
+	font-size: 350%;
+	line-height: 1em;
+	margin: 0px auto;
 	text-align: center;
 	font-family: 'Fontdiner Swanky', cursive;
 	font-weight: normal;
+	width: 100%;
 }
 
 .features{
@@ -72,6 +90,8 @@ ul{
 	height: 400px;
 	margin: 0px auto;
 	padding: 5px 0px;
+	margin-right:15px;
+	margin-left: 15px;
 }
 .features h2{
 	text-align: center;
@@ -80,30 +100,32 @@ ul{
 	font-family: 'Fontdiner Swanky', cursive;
 	font-weight: normal;
 	color: #fff;
-	background-image: url('http://66.media.tumblr.com/tumblr_m76zskFXbs1qc4jg3o1_500.gif')
+	background-image: url('http://66.media.tumblr.com/tumblr_m76zskFXbs1qc4jg3o1_500.gif');
 }
 .col-1 h3{
-	width: 286px;
-	height: 200px;
+	width: 100px;
+	background-color: #000;
+	margin: 5px;
 	float: left;
-	text-align: center;
-	margin-bottom: 40px;
-	color: #000;
-	font-weight: normal;
-	font-size: 180%;
-	background-color: pink;
+	margin-left: 15px;
+	opacity: .8;
+	min-height: 50px;
+	border: 1px solid #999;
+	border-bottom:3px solid #999;
+	border-radius: 5px;
 
 }
 .col-1 h5{
-	font-size: 180%;
-	width: 286px;
-	height: 200px;
-	font-weight: normal;
-	text-align: right;
+	width: 100px;
+	background-color: #000;
+	margin: 5px;
 	float: right;
-	margin-bottom: 400px;
-	color: #000;
-	background-color: pink;
+	margin-right: 160px;
+	opacity: .8;
+	min-height: 50px;
+	border: 1px solid #999;
+	border-bottom:3px solid #999;
+	border-radius: 5px;
 }
 section.features{
 
