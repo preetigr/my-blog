@@ -88,7 +88,7 @@ ul{
 
 .features{
 	width: 640px;
-	height: 300px;
+	height: 1300px;
 	margin: 0px auto;
 	padding: 5px 0px;
 	margin-right:15px;
@@ -107,12 +107,13 @@ ul{
 }
 #image1{
 	background: url('https://media.giphy.com/media/l3vRlT2k2L35Cnn5C/source.gif');
-	width: 300px;
-	height: 250px;
+	width: 400px;
+	height: 550px;
 	background-position: left;
 	float: left;
-	width: 250px;
-	height: 250px;
+	width: 400px;
+	height: 550px;
+	background-size: cover;
 	background-color: #000;
 	margin: 5px;
 	float: left;
@@ -129,8 +130,8 @@ ul{
 	height: 250px;
 	background-position: left;
 	float: left;
-	width: 250px;
-	height: 250px;
+	width: 400px;
+	height: 550px;
 	background-color: #000;
 	margin: 5px;
 	float: left;
@@ -140,6 +141,7 @@ ul{
 	border: 1px solid #999;
 	border-bottom:3px solid #999;
 	border-radius: 5px;
+	background-size: cover;
 }
 
 #image3{
@@ -148,8 +150,8 @@ ul{
 	height: 250px;
 	background-position: left;
 	float: left;
-	width: 250px;
-	height: 250px;
+	width: 400px;
+	height: 550px;
 	background-color: #000;
 	margin: 5px;
 	float: left;
@@ -159,7 +161,9 @@ ul{
 	border: 1px solid #999;
 	border-bottom:3px solid #999;
 	border-radius: 5px;
+	background-size: cover;
 }
+
 
 #image4{
 	background: url('http://store.metmuseum.org/content/ebiz/themetstore/invt/80024770/80024770_01_l.jpg');
@@ -167,8 +171,8 @@ ul{
 	height: 250px;
 	background-position: left;
 	float: left;
-	width: 250px;
-	height: 250px;
+	width: 400px;
+	height: 550px;
 	background-color: #000;
 	margin: 5px;
 	float: left;
@@ -178,6 +182,7 @@ ul{
 	border: 1px solid #999;
 	border-bottom:3px solid #999;
 	border-radius: 5px;
+	background-size: cover;
 }
 #image5{
 	background: url('https://sdweg.files.wordpress.com/2015/10/12561-poetry-icon.jpg');
@@ -185,8 +190,8 @@ ul{
 	height: 250px;
 	background-position: left;
 	float: left;
-	width: 250px;
-	height: 250px;
+	width: 400px;
+	height: 550px;
 	background-color: #000;
 	margin: 5px;
 	float: left;
@@ -196,17 +201,21 @@ ul{
 	border: 1px solid #999;
 	border-bottom:3px solid #999;
 	border-radius: 5px;
+	background-size: cover;
+}
+#text1{
+	font-size: 150%;
 }
 
 section.features{
 
 	width: 100%;
-	height: 1000px;
+	height: 1500px;
 	border: 1px solid #999;
 	background-size: 100% 100%;
 	color: yellow;
 	text-decoration: none;
-	height: 1000px;
+	height: 2500px;
 	border-radius: 5px;
 	border-bottom:3px solid #999;
 }
@@ -229,6 +238,7 @@ section.features{
 		margin: 35px;
 		margin-top: 15px;
 }
+
 
 
 .alert{
